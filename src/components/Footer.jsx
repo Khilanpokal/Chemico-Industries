@@ -45,7 +45,7 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 className="hover:text-secondary transition-colors"
                             >
-                                PLOT NO. S-203-MLS3, Chemico Industries, GIDC Multilevel Shed, opp. Surya Lifesciences Ltd, Brahmanpuri, Ankleshwar GIDC, Ankleshwar, Gujarat 393002
+                                PLOT NO. S-307-MLS3, Chemico Industries, GIDC Multilevel Shed, opp. Surya Lifesciences Ltd, Brahmanpuri, Ankleshwar GIDC, Ankleshwar, Gujarat 393002
                             </a>
                         </div>
                         <div className="flex items-center space-x-3 text-white/60 text-sm">
