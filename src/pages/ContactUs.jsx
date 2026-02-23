@@ -66,7 +66,8 @@ const ContactUs = () => {
 
                             <div className="space-y-4 sm:space-y-6">
                                 {[
-                                    { icon: <MapPin className="text-secondary h-5 w-5" />, title: 'Office Address', detail: 'PLOT NO. S-307-MLS3, Chemico Industries, GIDC Multilevel Shed, opp. Surya Lifesciences Ltd, Brahmanpuri, Ankleshwar GIDC, Ankleshwar, Gujarat 393002' },
+                                    { icon: <MapPin className="text-secondary h-5 w-5" />, title: 'Office Address', detail: 'PLOT NO. S-307-MLS3, Chemico Industries, GIDC Multilevel Shed, opp. Surya Lifesciences Ltd, Ankleshwar GIDC, Ankleshwar, Gujarat 393002' },
+                                    { icon: <MapPin className="text-secondary h-5 w-5" />, title: 'Plant Address', detail: 'Plot No. 2919, Phase-3, GIDC, Panoli, Dist. Bharuch, Gujarat - 394115' },
                                     { icon: <Phone className="text-secondary h-5 w-5" />, title: 'Contact Number', detail: '+91 76218 19777' },
                                     { icon: <ShieldCheck className="text-secondary h-5 w-5" />, title: 'GSTIN', detail: '24BLOPJ4514J1Z0' },
                                     { icon: <Mail className="text-secondary h-5 w-5" />, title: 'Inquiries', detail: 'info@chemico-industries.com' },
