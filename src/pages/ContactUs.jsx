@@ -86,7 +86,7 @@ const ContactUs = () => {
                                 <h4 className="font-bold text-primary mb-4">Export Desk</h4>
                                 <div className="flex items-center space-x-2 text-secondary font-bold">
                                     <Globe className="h-5 w-5 shrink-0" />
-                                    <a href="mailto:export@chemico-industries.com" className="hover:underline text-sm sm:text-base break-all">export@chemico-industries.com</a>
+                                    <a href="mailto:export@chemico-industries.com" className="hover:underline text-sm sm:text-base break-all">chemicoindustries.ac@gmail.com</a>
                                 </div>
                             </div>
                         </div>
