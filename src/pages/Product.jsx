@@ -52,8 +52,8 @@ const Product = () => {
         return matchesCategory && matchesSearch;
     });
 
-    const handleImgError = (idx) => {
-        setImgErrors(prev => ({ ...prev, [idx]: true }));
+    const handleImgError = (name) => {
+        setImgErrors(prev => ({ ...prev, [name]: true }));
     };
 
     return (
@@ -109,11 +109,11 @@ const Product = () => {
                             >
                                 {/* Product Image */}
                                 <div className="w-full h-56 sm:h-64 bg-chemical-bg overflow-hidden flex items-center justify-center">
-                                    {!imgErrors[idx] ? (
+                                    {!imgErrors[prod.name] ? (
                                         <img
                                             src={prod.image}
                                             alt={prod.name}
-                                            onError={() => handleImgError(idx)}
+                                            onError={() => handleImgError(prod.name)}
                                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                         />
                                     ) : (
