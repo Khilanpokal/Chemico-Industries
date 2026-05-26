@@ -6,7 +6,6 @@ import About from './pages/About';
 import Product from './pages/Product';
 import WhyChooseUs from './pages/WhyChooseUs';
 import ContactUs from './pages/ContactUs';
-import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/products" element={<Layout><Product /></Layout>} />
         <Route path="/why-us" element={<Layout><WhyChooseUs /></Layout>} />
         <Route path="/contact" element={<Layout><ContactUs /></Layout>} />
-        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
